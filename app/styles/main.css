@@ -72,9 +72,12 @@ ADDED ADJUSTMENTS
 
 .centered {
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.col-md-4 img{
+.col-sm-4 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -92,6 +95,29 @@ div h4 {
   color: #333;
 }
 
+.imgRounded {
+  border-radius: 6px;
+}
+
+.line-separator{
+height:1px;
+background:#97a7a8;
+border-bottom:1px solid #97a7a8;
+}
+
+.row-level {
+  display: table;
+}
+
+.row-level .panel {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+
+/***********************************
+RESPONSIVE / MARKETING
+***********************************/
 
 /* Supporting marketing content */
 .marketing {
@@ -123,4 +149,3 @@ div h4 {
     border-bottom: 0;
   }
 }
-

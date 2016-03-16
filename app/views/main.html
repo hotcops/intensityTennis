@@ -17,8 +17,9 @@
   <h3 class="gray">4 Weeks - 1.5hr Clinics - $100</h3>
 </div>
 
+<!-- Even 3 Column Layout -->
 <div class="row marketing gray">
-  <div class="col-md-4 centered">
+  <div class="col-sm-4 centered">
     <img src="../images/begincircle1.png" alt="Meet New People" class="img-responsive">
     <h2 class="black">Meet New People</h2>
     <h4>
@@ -26,7 +27,7 @@
     </h4>
   </div>
 
-  <div class="col-md-4 centered">
+  <div class="col-sm-4 centered">
     <img src="../images/begincircle2.png" alt="Meet New People" class="img-responsive">
     <h2 class="black">Learn From Our Talented Pros</h2>
     <h4>
@@ -34,18 +35,52 @@
     </h4>
   </div>
 
-  <div class="col-md-4 centered">
+  <div class="col-sm-4 centered">
     <img src="../images/begincircle3.png" alt="Meet New People" class="img-responsive">
     <h2 class="black">Perfect Your Skills</h2>
-    <h4>Learn ground strokes, volleys, serves &amp; more in our 4-week, 1.5 hour clinics and begin your tennis journey today!</h4>
+    <h4>
+      Learn ground strokes, volleys, serves &amp; more in our 4-week, 1.5 hour clinics and begin your tennis journey today!
+    </h4>
   </div>
 </div>
 
+<div class="line-separator"></div>
+
+<!-- PlaySight Information -->
+<div class="row marketing gray">
+  <div class="container-fluid">
+    <img src="../images/playsightLogo.png" alt="PlaySight Logo" class="img-responsive imgRounded centered">
+    <h3 class="centered">
+    Our PlaySight system automatically analyzes and tracks your performance through their interactive website &amp; app. Track your serve speed &amp; accuracy, record your matches and watch them later from your own computer.
+    </h3>
+  </div>
+
+<div class="line-separator"></div>
+<hr>
+
+  <div class="col-xs-4 centered row-level">
+    <img src="../images/playsightTerminal.jpg" alt="PlaySight Login Terminal" class="img-responsive imgRounded centered">
+    <h4>Login directly from your court!</h4>
+  </div>
+  <div class="col-xs-8 centered">
+    <img src="../images/playsightTerminal2.jpg" alt="Meet New People" class="img-responsive imgRounded centered">
+    <h4>PlaySight analyzes and tracks your performance automatically</h4>
+  </div>
+
+  <div class="col-sm-12 centered">
+    <img src="../images/playsightCourt.jpg" alt="Meet New People" class="img-responsive imgRounded centered">
+    <h4>We are still the only Club in New England using PlaySight technology!</h4>
+  </div>
+</div>
+
+<div class="line-separator"></div>
+<hr>
 
 <!-- Page Bottom Signup Form -->
 <div class="col-lg-4 col-lg-offset-4 centered">
   <h1>You've Got to Start Somewhere!</h1>
   <h4>Give our begginers clinics a shot and see how fun tennis can be. Get started today!</h4>
-  <a class="btn btn-lg btn-success" ng-href="#/">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
-<h4>It's never too late to start playing!</h4>
+  <a class="btn btn-lg btn-success" data-toggle="modal" ng-href="#modalForm">Learn More! <span class="glyphicon glyphicon-hand-left"></span></a>
+  <div ng-include="'views/signup.html'" ng-controller="MainCtrl"></div>
+  <h4>It's never too late to start playing!</h4>
 </div>
