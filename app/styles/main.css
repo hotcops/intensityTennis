@@ -7,7 +7,9 @@
 
 body {
   padding: 0;
-/*  font-family: 'Lato', sans-serif; */
+  font-family: 'Lato', sans-serif;
+  max-width: 1300px;
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -97,6 +99,27 @@ div h4 {
 
 .imgRounded {
   border-radius: 6px;
+}
+
+.imgCircle {
+  border-radius: 50%;
+}
+
+.makeSmall {
+  max-height: 2.5em;
+}
+
+.row li {
+  width: 33.3%;
+  float: right;
+}
+
+.imgRow {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .line-separator{

@@ -8,5 +8,5 @@
  *
  * Main module of the application.
  */
-angular
-  .module('tennisApp', []);
+
+angular.module("tennisApp", []);
